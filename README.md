@@ -1,2 +1,4 @@
 # mybatisgalltables
 mybatis 生成所有表对应的实体及mapper
+
+因为在官网上面没找到生成所有表的配置，所以写了个方法，先连接数据库查找库中所有的表，生成对应的xml格式，然后添加到generatorConfig.xml中
